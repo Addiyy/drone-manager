@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { DroneProvider, initialDrones, initialMissions } from "./context";
 import Header from "./components/Header";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./Pages/Dashboard";
 import MissionsPage from "./Pages/Mission";
 import Fleet from "./Pages/Fleet";
 import MonitoringPage from "./Pages/Monitoring";
-import ReportsPage from "./pages/Reports";
+import ReportsPage from "./Pages/Reports";
 
 export default function DroneManagementSystem() {
   const [currentPage, setCurrentPage] = useState("dashboard");
